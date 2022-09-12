@@ -1,0 +1,316 @@
+body{
+    position: relative;
+    width: 100%;
+    height: 3000px;
+    margin: 50px;
+
+    background: #FFFFFF;
+}
+
+.RedLine1{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+
+    background: #FF0800;
+}
+.RL1{
+    position: absolute;
+    width: 560px;
+    height: 16px;
+    left: calc(50% - 560px/2);
+    top: 850px;
+
+    background:rgba(255, 8, 0, 0.16);
+    border-radius: 30px;
+}
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url(Fonts/BalsamiqSans-BoldItalic.ttf);
+}
+
+.PresentationName{
+    position: absolute;
+    width: 500px;
+    height: 174px;
+    left: calc(50% - 460px/2);
+    top: 28px;
+
+    font-family: 'Balsamiq Sans';
+    src: url(Fonts/BalsamiqSans-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.RedLeter{
+    color: #FF0800;
+}
+
+.PolackPicture{
+    position: absolute;
+    width: 430px;
+    height: 275px;
+    left: calc(50% - 430px/2);
+    top: 250px;
+
+    background: url(polack11.png);
+    border-radius: 30px;
+}
+
+.ShortStory{
+    position: absolute;
+    width: 430px;
+    height: 48px;
+    left: calc(50% - 430px/2);
+    top: 500px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-align: center;
+
+    color: #000000;
+}
+.ShortStoryText{
+    position: absolute;
+    width: 430px;
+    height: 168px;
+    left: calc(50% - 430px/2);
+    top: 600px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.RL2{
+    position: absolute;
+    width: 560px;
+    height: 16px;
+    left: calc(50% - 560px/2);
+    top: 1400px;
+
+    background:rgba(255, 8, 0, 0.16);
+    border-radius: 30px;
+}
+
+.EPName{
+    position: absolute;
+    width: 400px;
+    height: 38px;
+    left: calc(50% - 344px/2);
+    top: 850px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+.EPPhoto{
+    position: absolute;
+    width: 210px;
+    height: 282px;
+    left: calc(50% - 210px/2 - 105px);
+    top: 950px;
+
+    background: url(p1akb0u9f91isp10qk1u431b0mv548.png);
+    border-radius: 15px;
+}
+.EPBuild{
+    position: absolute;
+    width: 188px;
+    height: 282px;
+    left: calc(50% - 188px/2 + 121px);
+    top: 950px;
+
+    background: url(79041_main.png);
+    border-radius: 20px;
+}
+.EPText{
+    position: absolute;
+    width: 440px;
+    height: 100px;
+    left: calc(50% - 440px/2);
+    top: 1250px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.CrusPhoto{
+    position: absolute;
+    width: 145px;
+    height: 341px;
+    left: calc(50% - 145px/2 - 117.5px);
+    top: 1450px;
+
+    background: url(11322.png);
+    border-radius: 30px;
+}
+.CrusName{
+    position: absolute;
+    width: 250px;
+    height: 114px;
+    left: calc(50% - 250px/2 + 97px);
+    top: 1400px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+.CrusText{
+    position: absolute;
+    width: 260px;
+    height: 168px;
+    left: calc(50% - 248px/2 + 96px);
+    top: 1550px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.RL3{
+    position: absolute;
+    width: 560px;
+    height: 16px;
+    left: calc(50% - 560px/2);
+    top: 1850px;
+
+    background:rgba(255, 8, 0, 0.16);
+    border-radius: 30px;
+}
+
+.KTPhoto{
+    position: absolute;
+    width: 170px;
+    height: 188px;
+    left: calc(50% - 170px/2 - 143px);
+    top: 1900px;
+
+    background: url(KT.png);
+    border-radius: 20px;
+}
+.KTName{
+    position: absolute;
+    width: 250px;
+    height: 38px;
+    left: calc(50% - 228px/2 + 98px);
+    top: 1900px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+.KTText{
+    position: absolute;
+    width: 267px;
+    height: 264px;
+    left: calc(50% - 267px/2 + 100.5px);
+    top: 1950px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.RL4{
+    position: absolute;
+    width: 560px;
+    height: 16px;
+    left: calc(50% - 560px/2);
+    top: 2300px;
+
+    background:rgba(255, 8, 0, 0.16);
+    border-radius: 30px;
+}
+
+.SBName{
+    position: absolute;
+    width: 250px;
+    height: 38px;
+    left: calc(50% - 235px/2 - 0.5px);
+    top: 2300px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+.SBPhoto{
+    position: absolute;
+    width: 380px;
+    height: 253px;
+    left: calc(50% - 380px/2);
+    top: 2390px;
+
+    background: url(sofiyskiy_sobor_v_polocke_4.png);
+    border-radius: 20px;
+}
+.SBText{
+    position: absolute;
+    width: 412px;
+    height: 96px;
+    left: calc(50% - 412px/2);
+    top: 2650px;
+
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.RedLine1{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    top: 3000px;
+
+    background: #FF0800;
+}
